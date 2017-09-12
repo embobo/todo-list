@@ -5,7 +5,6 @@
 function init() {
   var add = document.getElementById('add').addEventListener('click',add);
 }
-init();
 
 /**
 * fetches todo items as array 'todos'
