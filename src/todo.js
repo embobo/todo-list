@@ -3,7 +3,7 @@
 * page set up (one time)
 */
 function init() {
-  var add = document.getElementById('add').addEventListener('click',add);
+  var add_button = document.getElementById('add').addEventListener('click',add);
 }
 
 /**
