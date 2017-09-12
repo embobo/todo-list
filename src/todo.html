@@ -1,7 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- [BEST PRACTICE] always declare the doctype as the first line in the file -->
 <html lang="en">
+  <!-- 'lang' tag indicates language of elements on page. NOT code. -->
+  <!-- it is included in the angle brackets enclosing the 'html' tag because it is
+a qualifier for the entire page and is used by search engines and text to voice -->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <!-- 'meta' tag indicates machine parsable, undisplayed data -->
+  <!-- [BEST PRACTICE] an empty tag should be closed with a ' /' before the '>' --> 
 </head>
 <body>
+  <input id="task" /><button id="add">add</button>
+  <hr />
+  <div id="todos"></div>
+  <script src="todo.js"></script>
+</body>
+</html>
