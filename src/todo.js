@@ -1,5 +1,13 @@
 "use strict";
 /**
+* page set up (one time)
+*/
+function init() {
+  var add = document.getElementById('add').addEventListener('click',add);
+}
+init();
+
+/**
 * fetches todo items as array 'todos'
 */
 function get_todos() {
